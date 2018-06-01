@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/thomaspuppe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.thomaspuppe.de
+  * I am thomaspuppe (https://keybase.io/thomaspuppe) on keybase.
+  * I have a public key with fingerprint 636B DFB4 0A93 BFD8 6EB4  1B3B B1FE FCA7 6B38 ECA6
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "636bdfb40a93bfd86eb41b3bb1fefca76b38eca6",
+            "host": "keybase.io",
+            "key_id": "B1FEFCA76B38ECA6",
+            "uid": "9539a0369bc0fc4b25697d9543af6319",
+            "username": "thomaspuppe"
+        },
+        "merkle_root": {
+            "ctime": 1424995532,
+            "hash": "07192192b0896eac329acbb3f0d0690f2e68ce12961313867b945b5c580b270080a7f0da3ddacf82cfae6433fa5d26b2dcc229110b23e02ac4fa7ccab2a53f32",
+            "seqno": 166079
+        },
+        "service": {
+            "hostname": "www.thomaspuppe.de",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424995576,
+    "expire_in": 157680000,
+    "prev": "9a92590f57614be671fe4c3e7714d980b11ef1c9fef527a333cafe1e0b50f075",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+owFdUn1QFGUchvMD0W40hwkyp6EdTQQ8dvfdT8IcYUANixmTJm30et933+WOg9vj
+buEABbJERBC1McuPSUgNIqwsRSgcRfkU58ohHSdxwmkcP8aP1FJS4dplaLJ29o/d
+9/f8nvd5fs9vq3VciCX00MiTepd08/PQvusoZPmdw0NrKKQpRVTiGgrnOIlbN7/c
+MJdQiZSLFCHoIzanFu3WFGLL9kWPYeKpAuL1OTW3gaJtok2kSuJNuNmsOt1ZxOvx
+Ok0uSgACUlTE0VAGSFUkgSCOQQAhRiUqhqKAgEQwFAxKh+bT/3MrNcppdyrGaTKT
+lpqWslAUkoGUmrLQxOePFmQeyJAGgowwrWIOsbwgi4rMcwCqAmBkE+gj3jFLukPL
+hT5PvsdDTMm5xOvKIXavpo36xrrTRDEcy8kyzwPWEAV9DtOkyMis8SJakgUCMWBl
+iBECKq3QgkyrLBEkTBhWFhjAAEkQkczxiMe8RCNWpGmJhqKBhUBRIFYlFquQCBwA
+KuQVVkCsgjHLygxjoAGhWYg5FYoYQ8RCHqiANVz4SJ5bM8QJAi3KJea/t8CJianb
+nNyYQb/fb3vKpE0hRqvHq+ka1nKMukPXPYmmdb2o2TPaQJB9jMqOnG7FSO/peBkD
++r+xiEI8RQo9Ti+xO02EcSDRxmPeQwrMSKDM8sZQjALDISKIRtYcBkQUGU6RjYkw
+DFEZLBsbwLMiBABgqBKG0IinVVrk/zULDJ0wy6D0ObPcUM/3GqlVWmaODwm1hEyc
+YDH3N2Ry+LR/lnpe5tSgj1v6+6IlZannroaWf585/71ZgWV1U1s2Dyeu/7Z5+pFN
+lxtO9X1TnvRCXWONcq28+frjoZWhI4mRe11t46XpnZY4hxxcvHVZwtGrW5LaPOmC
+XFrfNaU1Zq7QUB+I7NFe+q1t3Z3yY9WpZXPmbVpXK7kCK0h/uz/mFz340YP+hvTz
+JS2BYOHE9cXRS37032t+uOBQaSxZf2BLoZBjEVNbFy+wdnubwq+fPR73w2Z/bgcI
+lu+oOt124OuBkVZ1WrsWoGpeP7yuZCA87uLh7piu9q5Kca1lxvDSsI+J61OppfvW
++RrpzHPHjt+37Dg7Y+AkBfOXv52dbC0djC21bjvxzEhKcfDPA4/yJj0brekRPR+8
+snNRrHVoMTlz8fF93PCH9cLtv1buf/l9/91qS7/vSdKV79zqicGonq82FE94/nZT
+cujy2Z1fblyZMKA3EdS4b7+nuaAFR+w6OLxd2vXmrYw9Zff6Oyo6j86R17LJFX0d
+XG3vjWN3w1ZMiZ7v2Hip4osFfcMzj26Y/fDdqtUlb5yUdkZ+uCdtEtU7/YZCuRvb
+9vy09UjVld0PwhvzTnbhefWx4y5X7ypbZY1JyNAizmVV1k2+8fPQwM2ositJra9+
+1l676tqFrndWr1Yf/dqbkZt9cNa+qoH0g6+tsVOnfW8NupfOZTMDl8J3fHLvRWFv
+5e7tUYvCqtriM5RTab1/Aw==
+=dmZy
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thomaspuppe
+
+==================================================================
+
