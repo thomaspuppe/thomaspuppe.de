@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head> 
+    <meta charset="utf-8">
+    <title>Website Performance – JSDays München 2024 – Thomas Puppe</title>
+    <meta name="description" content="Frontend Web Developer für ZEIT Online in Berlin. #WebPerf, #A11y, #LeanWeb."> 
+    <meta name="author" content="Thomas Puppe <info@thomaspuppe.de>"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            background: #fff; 
+            color: #333;
+            font-family: 'Superclarendon', 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', 'Georgia', serif;
+            font-size: 20px; 
+            line-height: 150%;
+        }
+        h1, h2 {
+            font-family: Helvetica, sans-serif; 
+            font-size: 2em; 
+            line-height: 150%;
+            font-weight: normal;
+            margin: 20px 0px 0px 0px;
+        }
+        h2 {
+            font-size: 1.5em; 
+            margin: 30px 0px 10px 0px;
+        }
+        p {
+            line-height: 30px; 
+            margin:30px auto;
+        }
+        a, a:link, a:visited {
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #333333 2px, #333333 2px, rgba(0, 0, 0, 0) 3px);
+            color: #333;
+            position: relative;
+            text-decoration: none;
+            text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+        }
+        a:hover {
+            color: #666;
+        }
+        section, aside {
+            width: 80%; max-width: 30em; margin: 60px 10%;
+        }
+
+        figure {width: 150px; text-align: center; display: inline-block; margin-left: 0; vertical-align: top;}
+        figure img {border: 1px#333 solid; padding:4px; width:100px; height: 100px;}
+        figcaption {font-size: smaller;}
+
+        @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+            a {
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #333333 2px, #333333 2.5px, rgba(0, 0, 0, 0) 2.5px);
+            }
+        }
+
+        a:hover, a:focus {
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #666 2px, #666 3px, rgba(0, 0, 0, 0) 3px);
+        }
+        @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+            a:hover, a:focus {
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #666 2px, #666 2.5px, rgba(0, 0, 0, 0) 2.5px);
+            }
+        }
+
+        a.noBgImg {
+            background-image: none;
+        }
+    </style>	
+</head> 
+<body> 
+    <section role="main">
+        <h1>"Website Performance" auf den JSDays München 2024</h1>
+        <p>Thomas Puppe am 21.03.2024 in München</p>
+        
+        <h2>Präsentation</h2>
+        <ul>
+            <li><a href="slides_website-performance_jsdays-muenchen-2024.pdf">Slides "Website Performance"</a> (pdf, 14 MB)</li>
+        </ul>
+
+        <h2>Links</h2>
+        <ul>
+            <li>WPO Stats: <a href="https://wpostats.com/">https://wpostats.com/</a></li>
+            <li>Chrome Devtools Network Filter: <a href="https://developer.chrome.com/docs/devtools/network/reference/#filter-by-property">https://developer.chrome.com/docs/devtools/network/reference/#filter-by-property</a></li>
+            <li>Request Map Generator: <a href="https://requestmap.webperf.tools/">https://requestmap.webperf.tools/</a></li>
+            <li>Request Map Generator: <a href="https://requestmap.pages.dev/">https://requestmap.pages.dev/</a></li>
+            <li>CSS and JS Coverage: <a href="https://developer.chrome.com/docs/devtools/coverage">developer.chrome.com/docs/devtools/coverage</a></li>
+            <li>System Font Stacks: <a href="https://modernfontstacks.com/">https://modernfontstacks.com/</a></li>
+            <li>CSS Modern Font Stacks: <a href="https://gist.github.com/don1138/5761014">https://gist.github.com/don1138/5761014</a></li>
+            <li>Font Style Matcher: <a href="https://meowni.ca/font-style-matcher/">https://meowni.ca/font-style-matcher/</a></li>
+            <li>Moderne Bildformate: <a href="https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/">https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/</a></li>
+            <li>Bildformate checken: <a href="https://webspeedtest.cloudinary.com/">https://webspeedtest.cloudinary.com/</a></li>
+            <li>SVG optimieren: <a href="https://jakearchibald.github.io/svgomg/">https://jakearchibald.github.io/svgomg/</a></li>
+            <li>Responsive Images Checker: <a href="https://toolsaday.com/seo/responsive-image-checker">https://toolsaday.com/seo/responsive-image-checker</a></li>
+            <li>Responsive Image Generator: <a href="https://responsivebreakpoints.com/">https://responsivebreakpoints.com/</a></li>
+            <li>Webfont-Features erkunden: <a href="https://wakamaifondue.com/">https://wakamaifondue.com/</a></li>
+            <li>Font Subsetting GUI: <a href="https://everythingfonts.com/subsetter">https://everythingfonts.com/subsetter</a></li>
+            <li>Font Subsetting CLI: <a href="https://www.zachleat.com/web/glyphhanger">https://www.zachleat.com/web/glyphhanger</a></li>
+            <li>Fonts transformieren und Subsetting: <a href="https://transfonter.org/">https://transfonter.org/</a></li>
+            <li>Layout Shift gif Generator: <a href="https://defaced.dev/tools/layout-shift-gif-generator/">https://defaced.dev/tools/layout-shift-gif-generator/</a></li>
+            <li>DevTools Tips: <a href="https://devtoolstips.org/">https://devtoolstips.org/</a></li>
+            <li>Pagespeed Insights: <a href="https://pagespeed.web.dev/">https://pagespeed.web.dev/</a></li>
+            <li>Webpagetest: <a href="https://www.webpagetest.org/">https://www.webpagetest.org/</a></li>
+            <li>Performance Experimente vorbereiten: <a href="https://perfproxy.com/">https://perfproxy.com/</a></li>
+            <li>SpeedCurve: <a href="https://www.speedcurve.com/">https://www.speedcurve.com/</a></li>
+            <li>CrUX: <a href="https://developer.chrome.com/docs/crux/dashboard/">https://developer.chrome.com/docs/crux/dashboard/</a></li>
+        </ul>
+    </section> 
+
+</body>
+</html>
